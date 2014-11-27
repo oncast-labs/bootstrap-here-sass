@@ -6,10 +6,9 @@
     "Thomas McDonald",
     "Tristan Harward",
     "Peter Gumeson",
-    "Gleb Mazovetskiy",
-    "Pablo Bender"
+    "Gleb Mazovetskiy"
   ],
-  "description": "bootstrap-sass is a Sass-powered version of Bootstrap, modified to affect only elements within outer element with attribute data-bootstrap-here.",
+  "description": "bootstrap-here-sass is a Sass-powered version of Bootstrap, modified to match only elements within other with attribute data-bootstrap-here.",
   "main": [
     "assets/stylesheets/_bootstrap.scss",
     "assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
@@ -30,8 +29,9 @@
     "assets/javascripts/bootstrap/popover.js"
   ],
   "keywords": [
+    "twbs",
     "bootstrap",
-    "bootstrap-here"
+    "bootstrap-here",
     "sass"
   ],
   "license": "MIT",
