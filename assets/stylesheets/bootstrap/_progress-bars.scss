@@ -18,6 +18,7 @@
   to    { background-position: 0 0; }
 }
 
+[bootstrap-here] {
 
 // Bar itself
 // -------------------------
@@ -84,4 +85,5 @@
 
 .progress-bar-danger {
   @include progress-bar-variant($progress-bar-danger-bg);
+}
 }

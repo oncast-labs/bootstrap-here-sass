@@ -3,6 +3,7 @@
 // --------------------------------------------------
 
 
+[bootstrap-here] {
 // Normalize non-controls
 //
 // Restyle and baseline non-control form elements.
@@ -388,6 +389,7 @@ input[type="checkbox"] {
   margin-bottom: 10px;
   color: lighten($text-color, 25%); // lighten the text some for contrast
 }
+}
 
 
 // Inline forms
@@ -472,6 +474,8 @@ input[type="checkbox"] {
     }
   }
 }
+
+[bootstrap-here] {
 // [converter] extracted as `@mixin form-inline` for libsass compatibility
 .form-inline {
   @include form-inline;
@@ -545,4 +549,5 @@ input[type="checkbox"] {
       }
     }
   }
+}
 }

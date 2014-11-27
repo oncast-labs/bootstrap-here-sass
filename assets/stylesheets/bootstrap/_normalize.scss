@@ -6,7 +6,7 @@
 //    user zoom.
 //
 
-html {
+html [data-bootstrap-here] {
   font-family: sans-serif; // 1
   -ms-text-size-adjust: 100%; // 2
   -webkit-text-size-adjust: 100%; // 2
@@ -16,7 +16,7 @@ html {
 // Remove default margin.
 //
 
-body {
+body [data-bootstrap-here] {
   margin: 0;
 }
 
@@ -29,6 +29,8 @@ body {
 // and Firefox.
 // Correct `block` display not defined for `main` in IE 11.
 //
+
+[bootstrap-here] {
 
 article,
 aside,
@@ -278,6 +280,7 @@ button,
 select {
   text-transform: none;
 }
+}
 
 //
 // 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -287,10 +290,10 @@ select {
 //    `input` and others.
 //
 
-button,
-html input[type="button"], // 1
-input[type="reset"],
-input[type="submit"] {
+[data-bootstrap-here] button,
+html *[data-bootstrap-here] input[type="button"], // 1
+[data-bootstrap-here] input[type="reset"],
+[data-bootstrap-here] input[type="submit"] {
   -webkit-appearance: button; // 2
   cursor: pointer; // 3
 }
@@ -299,11 +302,12 @@ input[type="submit"] {
 // Re-set default cursor for disabled elements.
 //
 
-button[disabled],
-html input[disabled] {
+[data-bootstrap-here] button[disabled],
+html *[data-bootstrap-here] input[disabled] {
   cursor: default;
 }
 
+[bootstrap-here] {
 //
 // Remove inner padding and border in Firefox 4+.
 //
@@ -424,4 +428,5 @@ table {
 td,
 th {
   padding: 0;
+}
 }

@@ -4,18 +4,25 @@
 
 // Reset and dependencies
 @import "bootstrap/normalize";
+[data-bootstrap-here] {
 @import "bootstrap/print";
-@import "bootstrap/glyphicons";
+}
+@import "bootstrap/glyphicons";//
 
 // Core CSS
 @import "bootstrap/scaffolding";
+[data-bootstrap-here] {
 @import "bootstrap/type";
 @import "bootstrap/code";
 @import "bootstrap/grid";
 @import "bootstrap/tables";
-@import "bootstrap/forms";
+}
+@import "bootstrap/forms";//
+[data-bootstrap-here] {
 @import "bootstrap/buttons";
+}
 
+[data-bootstrap-here] {
 // Components
 @import "bootstrap/component-animations";
 @import "bootstrap/dropdowns";
@@ -31,20 +38,27 @@
 @import "bootstrap/jumbotron";
 @import "bootstrap/thumbnails";
 @import "bootstrap/alerts";
-@import "bootstrap/progress-bars";
+}
+@import "bootstrap/progress-bars";//
+[data-bootstrap-here] {
 @import "bootstrap/media";
 @import "bootstrap/list-group";
 @import "bootstrap/panels";
 @import "bootstrap/responsive-embed";
 @import "bootstrap/wells";
 @import "bootstrap/close";
+}
 
+[data-bootstrap-here] {
 // Components w/ JavaScript
 @import "bootstrap/modals";
 @import "bootstrap/tooltip";
 @import "bootstrap/popovers";
 @import "bootstrap/carousel";
+}
 
+[data-bootstrap-here] {
 // Utility classes
 @import "bootstrap/utilities";
-@import "bootstrap/responsive-utilities";
+}
+@import "bootstrap/responsive-utilities";//

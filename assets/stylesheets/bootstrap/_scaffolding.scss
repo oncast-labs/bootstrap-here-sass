@@ -8,6 +8,9 @@
 // Heads up! This reset may cause conflicts with some third-party widgets.
 // For recommendations on resolving such conflicts, see
 // http://getbootstrap.com/getting-started/#third-box-sizing
+
+[bootstrap-here] {
+
 * {
   @include box-sizing(border-box);
 }
@@ -15,16 +18,17 @@
 *:after {
   @include box-sizing(border-box);
 }
+}
 
 
 // Body reset
 
-html {
+html *[data-bootstrap-here] {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-body {
+body *[data-bootstrap-here] {
   font-family: $font-family-base;
   font-size: $font-size-base;
   line-height: $line-height-base;
@@ -32,6 +36,7 @@ body {
   background-color: $body-bg;
 }
 
+[bootstrap-here] {
 // Reset fonts for relevant elements
 input,
 button,
@@ -147,4 +152,5 @@ hr {
     overflow: visible;
     clip: auto;
   }
+}
 }
