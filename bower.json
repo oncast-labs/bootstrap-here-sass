@@ -9,7 +9,7 @@
     "Gleb Mazovetskiy",
     "Pablo Bender"
   ],
-  "description": "bootstrap-sass is a Sass-powered version of Bootstrap, modified to affect only elements within an outer element with attribute `data-bootstrap-here`.",
+  "description": "bootstrap-sass is a Sass-powered version of Bootstrap, modified to affect only elements within outer element with attribute data-bootstrap-here.",
   "main": [
     "assets/stylesheets/_bootstrap.scss",
     "assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
