@@ -1,14 +1,15 @@
 {
-  "name": "bootstrap-sass",
+  "name": "bootstrap-here-sass",
   "version": "3.3.1",
-  "homepage": "https://github.com/twbs/bootstrap-sass",
+  "homepage": "https://github.com/oncast-labs/bootstrap-here-sass",
   "authors": [
     "Thomas McDonald",
     "Tristan Harward",
     "Peter Gumeson",
-    "Gleb Mazovetskiy"
+    "Gleb Mazovetskiy",
+    "Pablo Bender"
   ],
-  "description": "bootstrap-sass is a Sass-powered version of Bootstrap, ready to drop right into your Sass powered applications.",
+  "description": "bootstrap-sass is a Sass-powered version of Bootstrap, modified to affect only elements within an outer element with attribute `data-bootstrap-here`.",
   "main": [
     "assets/stylesheets/_bootstrap.scss",
     "assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
@@ -29,8 +30,8 @@
     "assets/javascripts/bootstrap/popover.js"
   ],
   "keywords": [
-    "twbs",
     "bootstrap",
+    "bootstrap-here"
     "sass"
   ],
   "license": "MIT",
