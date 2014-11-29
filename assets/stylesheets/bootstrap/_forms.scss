@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 
-[bootstrap-here] {
+[data-bootstrap-here] {
 // Normalize non-controls
 //
 // Restyle and baseline non-control form elements.
@@ -475,7 +475,7 @@ input[type="checkbox"] {
   }
 }
 
-[bootstrap-here] {
+[data-bootstrap-here] {
 // [converter] extracted as `@mixin form-inline` for libsass compatibility
 .form-inline {
   @include form-inline;

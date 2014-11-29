@@ -17,7 +17,7 @@
        url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.svg##{$icon-font-svg-id}'), '#{$icon-font-path}#{$icon-font-name}.svg##{$icon-font-svg-id}')) format('svg');
 }
 
-[bootstrap-here] {
+[data-bootstrap-here] {
 // Catchall baseclass
 .glyphicon {
   position: relative;

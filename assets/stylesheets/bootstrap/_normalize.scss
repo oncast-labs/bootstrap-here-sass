@@ -30,7 +30,7 @@ body [data-bootstrap-here] {
 // Correct `block` display not defined for `main` in IE 11.
 //
 
-[bootstrap-here] {
+[data-bootstrap-here] {
 
 article,
 aside,
@@ -307,7 +307,7 @@ html *[data-bootstrap-here] input[disabled] {
   cursor: default;
 }
 
-[bootstrap-here] {
+[data-bootstrap-here] {
 //
 // Remove inner padding and border in Firefox 4+.
 //

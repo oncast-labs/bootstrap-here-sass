@@ -9,7 +9,7 @@
 // For recommendations on resolving such conflicts, see
 // http://getbootstrap.com/getting-started/#third-box-sizing
 
-[bootstrap-here] {
+[data-bootstrap-here] {
 
 * {
   @include box-sizing(border-box);
@@ -36,7 +36,7 @@ body *[data-bootstrap-here] {
   background-color: $body-bg;
 }
 
-[bootstrap-here] {
+[data-bootstrap-here] {
 // Reset fonts for relevant elements
 input,
 button,
